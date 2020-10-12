@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & Github Explained | Week 1 Basic HTML Website</title>
+</head>
+<body>
+    
+    <h1>Git & Github Explained</h1>
+
+    <u>This Page Includes</u>
+
+    <ol>
+        <a href="#git-section"><li>A description of the Github Workflow</li></a>
+        <a href="#unix-section"><li>A description of the Unix Shell</li></a>
+    </ol>
+
+<!-- Section one - github and git workflow -->
+
+    <h2 id="git-section">1. A Description of the Github Workflow</h2>
+
+    <p>Github is a website that holds repositories of code that developers can use to store their working files. It helps developers collaborate together on projects as Github repositories can be made accessible for teams working across locations and time zones.</p>
+
+    <p>Repositories on Github can consist of multiple files that make up a software project. These files can be accessed by multiple developers at any given time who all collaborate on the same project and contribute their own work to the repository.</p>
+
+    <p>A Github repository consists of ‘branches’, which are segments of code that developers use to collaborate together and work on their own changes to the code base. The ‘master branch’ is the central set of files in a repository which collates all the changes that have been approved and tested, and are ready to be deployed live as part of a website or application. 
+    </p>
+
+    <p>To make changes to the ‘master branch’, a separate branch must be created so changes can be implemented and tested. When a separate branch is created, it consists of a carbon copy of the ‘master branch’ at that specific moment in time. The code in this branch can then be changed and tested without affecting the ‘master branch’.</p>
+
+    <p>For changes to be implemented to the ‘master branch’, a developer must open a pull request. A pull request is the process of submitting and accepting changes made to the master branch to test these changes and ensure they work and meet the standards of the project. Once the pull request has been accepted, the changes made in the branch can be implemented to the master branch.</p>
+
+    <img width="1000px" src="/Phase-1/Week-1/GitHub-Flow.png" alt="A graphic showing a visual representation of the Github work flow">
+    <figcaption>A visual representation of the Github Workflow. Provided by <a href="https://www.buildazure.com">BuildAzure</a></figcaption>
+
+    <!-- section 2 - unix shell -->
+
+    <h2 id="unix-section">2. A Description of the Unix Shell</h2>
+
+    <p>The Unix shell is a command line interface. Developers can use the Unix shell to manage their work files and automate processes that would otherwise be time consuming if carried out in an alternative graphical user interface. One of the most widely used Unix shells is Bash, which can be used on both Windows and Macintosh devices.</p>
+
+    <p>A Unix Shell can be operated using commands that consist of short abbreviated words. The table below details some of the most used commands for a Unix shell command line. Notice that some of the commands have single letter extensions (i.e ls -a). These are called flags and are appended to commands to carry out specific tasks in the command line.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <strong>Unix Commands</strong>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    pwd
+                </td>
+                <td>
+                    Print the current working directory in the command line
+                </td>
+            </tr>
+            <tr>
+                <td>ls</td>
+                <td>List all files in a directory</td>
+            </tr>
+            <tr>
+                <td>ls -a</td>
+                <td>List all files in a directory including hidden files</td>
+            </tr>
+            <tr>
+                <td>cd *<em>file name</em>*</td>
+                <td>change directory to a particular file in the directory</td>
+            </tr>
+            <tr>
+                <td>cd ..</td>
+                <td>return to parent file in the directory</td>
+            </tr>
+            <tr>
+                <td>mkdir *<em>file name</em>*</td>
+                <td>create a new working directory</td>
+            </tr>
+            <tr>
+                <td>touch *<em>file name</em>*</td>
+                <td>create a new file using the nano text editor</td>
+            </tr>
+            <tr>
+                <td>rm *<em>file name</em>*</td>
+                <td>remove a file from the directory</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
